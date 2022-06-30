@@ -7,6 +7,7 @@ function hi1(){
                 userPref1 = prompt("Please Enter an even number");
                 modCheck = userPref1 %= 2;
             }
+    document.write(modCheck);
     return userPref1;
 }
 
