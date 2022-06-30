@@ -1,6 +1,23 @@
-function alloAllo(){
+function hi1(){
 
-    alert("A PopUp! What year is it?");
+    alert("hello!");
+    let userPref1 = prompt("Please Enter an even number");
+            let modCheck = userPref1 %= 2;
+            while (modCheck !== 0){
+                userPref1 = prompt("Please Enter an even number");
+                modCheck = userPref1 %= 2;
+            }
+    return userPref1;
+}
+
+function nachoRepeater(x){
+
+}
+
+function hi2(){
+
+    let userPref2 = prompt("Please Enter a new userPref");
+    return userPref2;
 }
 
 function autoTime(){
