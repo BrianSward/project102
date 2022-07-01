@@ -1,18 +1,24 @@
+let userPref1;
+let userPref3;
+
 function hi1(){
 
     alert("hello!");
-    let userPref1 = prompt("Please Enter an even number");
+            userPref1 = prompt("Please Enter a positive even number, greater than zero");
+            userPref3 = userPref1
             let modCheck = userPref1 %= 2;
             while (modCheck !== 0){
-                userPref1 = prompt("Please Enter an even number");
+                userPref1 = prompt("That's not even! Please Enter a positive even number, greater than zero");
                 modCheck = userPref1 %= 2;
             }
-    document.write(modCheck);
-    return userPref1;
+        return userPref1;
 }
 
-function nachoRepeater(x){
+function nachoRepeater(){
+    for (let i = 1; i <= userPref3; i++){
 
+        document.write("<img src='https://www.fillmurray.com/g/140/100'>"+i);
+    }
 }
 
 function hi2(){
